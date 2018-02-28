@@ -1,0 +1,7 @@
+#only include sample
+/src/config.js
+/src/auth/Auth.js
+
+#other
+.DS_store
+/node_modules

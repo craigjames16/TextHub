@@ -1,0 +1,167 @@
+/*Main Css*/
+
+/*Set up multi-use elements */
+button.btn-info {
+    margin:10px;
+}
+div.container-white {
+    /*display: inline-block;*/
+    /*width: 100%;*/
+    border-radius: 10px;
+    background-color:white;
+    padding: 10px 30px 30px 30px !important;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+div.right-side-panel {
+
+}
+
+h3 {
+    color:white;
+    text-shadow:0px 0px 10px black;
+}
+
+h6 {
+    color: white;
+    margin-bottom:20px;
+}
+
+img {
+    height: 80px;
+    width: auto;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+p.function {
+    cursor: pointer;
+}
+
+p.function:hover {
+    cursor: pointer;
+    color: #2776d8;
+}
+
+thead th:first-of-type {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+thead th:last-of-type {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+tbody td:first-of-type {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+
+tbody td:last-of-type {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+th, td {
+    border: 0 !important;
+}
+.table .thead-dark th {
+    background-color: rgb(50,50,50);
+} 
+
+
+.box-shadow {
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+
+.page {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #2776d8, #93d7ff);
+}
+
+.center-text {
+    text-align: center;
+}
+
+.left-text {
+    text-align: left;
+}
+
+/*Nav*/
+.nav li a {
+    color:white;
+}
+
+/*Hub*/
+.form-box {
+    padding: 20px;
+    display: inline-block;
+    max-width: 500px;
+    background-color: rgba(255,255,255,1);
+    /*margin:20px;*/
+    border-radius: 10px;
+    border:1px solid rgba(100,100,100,0.5);
+    color: black;
+}
+
+.file-drop-target {
+    background-color: rgb(234, 243, 249);
+    outline: 5px dashed rgb(230,230,230);
+    outline-offset: -20px;
+    border-radius: 10px;
+    padding:60px;
+}
+
+.file-drop-dragging-over-frame  {
+    transition: box-shadow .5s;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);
+}
+
+.file-drop-dragging-over-target {
+    outline: 3px dashed red;
+    outline-offset: -24px;
+    border-radius: 10px;
+    padding: 60px;
+}
+
+ /*Lists*/
+ .lists-table-container {
+    background-color: white;
+    border-radius: 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+.lists-table-container table {
+    width: 100%;
+}
+
+.contacts-list {
+    width:500px;
+}
+
+.edit-list-send {
+    padding: 30px;
+    background-color: white;
+    border-radius:10px;
+}
+
+/*View List*/
+.totals-box {
+    display: inline-block;
+    margin-right:30px;
+}
+
+.totals-box p {
+    font-size: 3em;
+    font-weight:200;
+}
